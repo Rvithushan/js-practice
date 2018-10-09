@@ -32,3 +32,36 @@ console.log(reverse)
      
  }
 >>>>>>> e7233b5e13c541abd7ec79feaf6515da84b487a3
+
+
+function Grading(score) {
+    var grade;
+  
+    switch(true) {
+      case (score <= 100 && score >= 75):
+         grade = 'A';
+          break;
+      case (score <= 74 && score >= 65):
+          grade = 'B';
+           break;
+      case (score <= 64 && score >= 55):
+          grade = 'C';
+           break;
+         case (score <= 54 && score >= 45):
+          grade = 'D';
+           break;
+      case (score <= 44 && score >= 0):
+          grade = 'F';
+          break;
+  
+      case (score > 100 && score < 0):
+          grade = 'INVALID SCORE';
+          break; 
+  
+      default:
+        return 'INVALID SCORE';
+  }
+      return grade;
+  }
+  
+  print(Grading(85));
