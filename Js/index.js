@@ -1,6 +1,19 @@
  // commment in js
  //console.log('Hello world!,js');
  //let name = "Vithu";
+<<<<<<< HEAD
+ //console.log(name);
+ //console.log(module);
+//=======
+// console.log('Hello world!,js');
+ //let name = "Vithu";
+ //console.log(name);
+
+ let a = 100;
+ let b = 5;
+ let c = a/b;
+=======
+>>>>>>> 34211ef297440c06ab8c06d6ccac2d330d3da9ff
  
  let number = 5;
  /*for (; number > 0; number--)
